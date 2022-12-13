@@ -42,6 +42,10 @@ class _BNavigatorState extends State<BNavigator> {
         BottomNavigationBarItem(
           icon: Icon(Icons.precision_manufacturing_outlined),
           label: 'Correción',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.person),
+          label: 'Contactos',
         )
       ],
     );

@@ -1,6 +1,9 @@
+import 'package:crytodayapp/BNavigation/Contact_screen.dart';
 import 'package:crytodayapp/BNavigation/coins_list_screen.dart';
 import 'package:crytodayapp/BNavigation/following_coins_screen.dart';
 import 'package:crytodayapp/BNavigation/user_view.dart';
+import 'package:crytodayapp/contact/contactapi.dart';
+import 'package:crytodayapp/main.dart';
 import 'package:flutter/material.dart';
 import 'package:crytodayapp/BNavigation/correcion_view.dart';
 
@@ -14,7 +17,8 @@ class Routes extends StatelessWidget {
       CoinsListScreen(),
       const FollowingCoinsScreen(),
       const user_view(),
-      const correcion_view()
+      const correcion_view(),
+      Contact_screen(),
     ];
 
     return myList[index];
